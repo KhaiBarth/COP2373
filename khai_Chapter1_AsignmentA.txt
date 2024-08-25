@@ -1,0 +1,24 @@
+Khai Bartholomew
+Date created: 8/25/2024
+
+Description: The program for this assignemnt is a ticket booth at a movie theater. 
+There are a limited amount of presell tickets available, and my task is to record how many tickets are sold, and how many are left at the end of each purchase until the amout of tickets available reach zero. 
+The program asks the user to enter an amount of tickets with a maximum of 4, and then subtracts the user's input from the initial reaining 20. This repeats until there are no more tickets left to sell. 
+
+Logical Steps:
+The logical steps taken were as follows:
+~define the inital amount of tickets sold, how many purchases were made, and how many are left after each purchase.
+~Loop the ticket sales until the number left is zero
+~Ensure the user entered a valid number of tickets to buy (No more than 4)
+~Displayed confirmation text to verify input and calculation succeded
+~Show final results and finish the loop
+
+Variables: 
+TOTAL_TICKETS: The starting number of tickets available (20)
+tickets_sold: an accumulative variable to count many tickets have been sold 
+number_of_buyers: Counts the nuumber of buyers
+desired_tickets: counted how many tickets the user wanted to purchase
+remaining_tickets: Calculated and provided the remaining numhber of tickets in the program
+
+https://github.com/KhaiBarth/COP2373
+
