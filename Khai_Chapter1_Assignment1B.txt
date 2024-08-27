@@ -1,0 +1,30 @@
+Khai Bartholomew 
+Created on 8/27/2024
+
+PROGRAM DESCRIPTIONS:
+The Magic 8 Ball program gives responses from a text file (8ball_responses.txt) and gives responses to users who ask a yes or no question. The program will respond with answers from the txt file until the user enters 'quit' in the response box.
+
+
+LOGICAL STEPS:
+Create text file 8ball_responses.txt with answers that will be used in the program
+The responses from 8ball_responses.txt are sorted into a list that are given to the user after a question is typed.
+The user is prompted to ask a yes/no question.
+A random response from the list is used as the answer.
+Repeat the process until the user types 'quit'.
+
+
+VARIABLES:
+Responses= consist of the list containing the responses read from the file.
+ 
+
+FUNCTIONS:
+load_responses(file_path)
+
+Purpose: This reads responses from the specified file into a list.
+
+Parameters: file_path (string)=Path to the responses file.
+Returns: List of responses from txt file
+
+Processes:
+Loads responses using load_responses().
+Continuously prompts the user for questions until the termination word is entered, which then displays a random response or exits based on user input.
