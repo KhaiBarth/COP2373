@@ -1,0 +1,29 @@
+Khai Bartholomew
+Date created: 9.14.2024
+https://github.com/KhaiBarth/COP2373
+
+
+
+DESCRIPTION
+In this assignment, the program is designed to analyze the user's monthly expenses. Once the expenses are recorded, the program will then display the highest and lowest expense, as well as the total amount.
+
+
+
+LOGICAL STEPS 
+>Have user enter expenses for program to catalog
+>Validate the entered user input to ensure it meets the criteria for the program
+>display the user's data accurately as described 
+
+
+
+VARIABLES
+>Expenses: The user supplied data for the program to calculate
+>Amount: The dollar amount of expenses 
+>Total Expenses: The grand amount of all expenses added together for final amount each month
+
+
+
+FUNCTIONS
+>get expenses: gathers all user input data for expenses
+>anaylze expenses: Determines whether the user data is correctly entered, and catalogs the answer for final calculation
+>main(): main force of the program, is what keeps 'get expenses' and 'anaylize expenses' together for formula to work properly
