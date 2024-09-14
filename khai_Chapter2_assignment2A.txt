@@ -1,0 +1,27 @@
+Khai Bartholomew
+Created on 9/14/2024
+
+DESCRIPTION
+This program was designed to function as an email spam filtration and scoring device, which reads the user's input data and scans for key words and phrases commonly used in spam messages. 
+
+LOGICAL STEPS
+> Load Spam document with 30 words and phrases in a txt file
+> Input Email Message which prompts the user to enter text and reads input until terminated with the end word "SEND"
+> Scans message for words from the smap txt list
+> Calculate the likelyhood of the message for scams and displays the result 
+> Shows result to user
+
+
+VARIABLES
+Spam phrases file: file that contains the words used in program
+Email message: The message input by the user
+Spam Score: The final result that displays the message's spam contents
+
+
+
+FUNCTIONS
+Loading Spam Phrases: uses separete file to scan for commonly used words in spam emails 
+Calculate spam score: checks email for words in the txt file
+Main: main function for the program
+
+https://github.com/KhaiBarth/COP2373
