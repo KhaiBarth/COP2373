@@ -1,0 +1,37 @@
+In this assignment,  I am creating a function that validates user entered phone numbers, ssn, and zip code. The program reads user input and decides if the data is valid.
+
+
+LOGICAL STEPS
+-Input Gathering: The program prompts the user to enter a phone number, social security number, and zip code.
+
+-Validation: Each input is validated against predefined regular expressions to check for correct formatting.
+
+-Output: The program outputs whether each input (phone number, SSN, and zip code) is valid or invalid.
+
+
+VARIABLES
+phone_number: Stores the user-input phone number.
+
+ssn: Stores the user-input social security number.
+
+zip_code: Stores the user-input zip code.
+
+phone_valid: Boolean value indicating if the phone number is valid.
+
+ssn_valid: Boolean value indicating if the SSN is valid.
+
+zip_valid: Boolean value indicating if the zip code is valid.
+
+
+FUNCTIONS
+
+validate_phone_number(phone): Validates a phone number using a regular expression.
+
+validate_ssn(ssn): Validates a social security number using a regular expression.
+
+validate_zip_code(zip_code): Validates a zip code using a regular expression.
+
+main(): Orchestrates user input and calls validation Functions, showing final results.
+
+
+https://github.com/KhaiBarth/COP2373
