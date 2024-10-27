@@ -1,0 +1,30 @@
+The program allows users to input any number of sentences, including those that begin with numbers. The user can continue entering sentences until they type "SEND". Afterwards, the program displays all the entered sentences along with their count.
+
+
+
+
+LOGICAL STEPS
+Initialize an empty list to store the sentences.
+
+Prompt the user to enter sentences
+
+Enter a loop that accepts user input for a sentence.
+
+Exit the loop when 'SEND' is entered.
+
+Display the sentences
+
+Print each sentence 
+
+Print the total count of sentences entered.
+
+
+VARIABLES
+sentences: A list that stores the sentences inputted by the user.
+sentence: A string variable that holds the current sentence being inputted by the user during each iteration of the loop.
+
+
+FUNCTIONS
+main(): The main function that contains the logic of the program. It manages user input, stores sentences, and handles output display.
+
+https://github.com/KhaiBarth/COP2373
