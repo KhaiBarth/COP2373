@@ -1,0 +1,84 @@
+date created 11/6/2024 late due to hurricane milton/ home repairs
+
+
+DESCRIPTION
+This program defines a BankAcct class that simulates a basic banking account system. It allows users to: 
+Create a bank account with a specified name, account number, initial balance, and interest rate.
+Deposit and withdraw money from the account.
+Adjust the interest rate.
+Calculate the interest earned over a specified number of days.
+Display the account details, including balance and interest rate.
+A test function demonstrates the usage of the class by performing various operations like deposit, withdrawal, interest rate adjustment, and interest calculation, and then prints out the results.
+
+LOGICAL STEPS
+Create the BankAcct class:
+
+Initialize the class with four attributes: name, account_number, amount, and interest_rate.
+Define methods for adjusting interest rates, depositing, withdrawing, calculating interest, and displaying the balance.
+Define the adjust_interest_rate method:
+
+Update the account’s interest rate when called with a new value.
+Define the deposit method:
+
+Increase the account balance by the deposit amount when called, ensuring that the deposit is positive.
+Define the withdraw method:
+
+Decrease the account balance by the withdrawal amount when called, ensuring that the withdrawal does not exceed the available balance and is positive.
+Define the calculate_interest method:
+
+
+
+
+
+VARIABLES
+Class Attributes:
+
+name: A string to store the account holder's name.
+account_number: A string to store the account number.
+amount: A float to store the current balance in the account.
+interest_rate: A float to store the interest rate as a percentage.
+Method Variables:
+
+new_rate: A float used in the adjust_interest_rate method to store the new interest rate.
+amount: A float used in the deposit and withdraw methods to represent the amount of money being deposited or withdrawn.
+interest: A float used in the calculate_interest method to store the calculated interest.
+
+
+
+
+FUNCTIONS
+__init__:
+
+Constructor method that initializes the account's state with the name, account_number, amount, and interest_rate.
+
+adjust_interest_rate(self, new_rate):
+
+Updates the interest rate of the account with a new value provided by the user.
+
+deposit(self, amount):
+
+Increases the account's balance by the deposit amount, ensuring that the deposit is a positive value.
+
+withdraw(self, amount):
+
+Decreases the account's balance by the withdrawal amount, ensuring that the withdrawal amount is positive and the account has sufficient funds.
+
+calculate_interest(self, days):
+
+Calculates and returns the interest earned on the account over the specified number of days.
+
+balance(self):
+
+Returns the current balance of the account.
+
+__str__(self):
+
+Returns a string representation of the account, including the name, account number, balance, and interest rate.
+
+test_bank_account():
+
+A test function that demonstrates the functionality of the BankAcct class, including deposit, withdrawal, interest rate adjustment, and interest calculation.
+
+
+
+https://github.com/KhaiBarth/COP2373
