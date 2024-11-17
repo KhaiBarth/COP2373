@@ -1,0 +1,39 @@
+In this assignment, I am creating a program to simulate a poker game. The user is shown a deck of cards, and then enters a number to quantify how many cards they want to change.
+
+
+
+
+LOGICAL STEPS
+-Card and Deck Class Creation:
+Define a Card class for individual card representation.
+
+Define a Deck class to create, shuffle, and deal cards.
+
+-Initial Hand Dealing:
+Create a shuffled deck and deal a hand of five cards.
+
+-User Input for Card Replacement:
+Prompt the user to input which cards to replace, using indices.
+Validate the user's input and replace the specified cards.
+
+-Display Final Hand:
+Display the final hand after the draw phase.
+
+
+
+VARIABLES
+deck: An instance of the Deck class representing the shuffled deck.
+hand: A list of Card objects representing the initial and updated hands.
+replace_indices: A list of indices provided by the user to identify cards to be replaced.
+
+
+
+FUNCTIONS
+__init__ and __str__ in Card class: To initialize and represent individual cards as strings.
+__init__, shuffle, and deal in Deck class: To initialize, shuffle the deck, and deal cards.
+display_hand: A function to print the current hand with numbered positions.
+main: The main function handling the game flow, including dealing cards, prompting for user input, and displaying results.
+
+
+
+https://github.com/KhaiBarth/COP2373
