@@ -1,0 +1,46 @@
+DESCRPTION:In this assignment, I am creating a table to show the population of 10 florida cities of my choice, showing their population, the year the population was recorded, and changes over 20 years with a 2% increase
+
+
+
+LOGICAL STEPS
+
+Insert initial population data for the year 2023 for 10 cities in Florida
+
+Simulate population growth for the next 20 years (from 2023 to 2043) at a fixed annual growth rate of 2%. 
+
+Allow the user to select a city by entering the corresponding number.
+
+Fetch the population data for the selected city and display a line graph showing its population growth 
+
+Allow the user to continue selecting cities to view their graphs or exit the program by typing "SEND".
+
+
+
+VARIABLES:
+cities: A list containing the names of the 10 cities and the population in 2023. 
+
+city_index: An integer used to store the user’s selected city index from the displayed list of options.
+selected_city: A string variable that holds the name of the city chosen by the user. It is used to query the database for the corresponding population data.
+
+data: A list of tuples fetched from the database containing the year and population values for the selected city.
+
+years: A list extracted from data that contains only the years for plotting the graph.
+populations: A list extracted from data that contains only the population values for plotting the graph.
+
+
+
+
+FUNCTIONS:
+create_database(): This function initializes the SQLite database and creates the population table if it does not already exist. 
+
+insert_initial_data(): This function inserts the initial population data for the year 2023 into the population table. 
+
+simulate_population_growth(): This function calculates the population for each city for the next 20 years, starting from 2023. The growth is simulated at a 2% annual rate, and the calculated data is inserted into the database.
+
+plot_population_growth(): This function displays a list of cities and allows the user to select one. 
+
+
+
+
+https://github.com/KhaiBarth/COP2373
+
