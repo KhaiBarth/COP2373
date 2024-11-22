@@ -1,0 +1,55 @@
+In this assignment, I am using exam grades from a previous assignment, and performing calculations to gather the mean, min, max, etc of all exam grades.
+
+LOGICAL STEPS:
+Define a Numpy array to store the grades for 10 students across exams
+
+Calculate statistics (mean, median, standard deviation, minimum, maximum) for each exam
+
+Determine the number of students who passed and failed for each exam (above 60)
+
+Calculate the overall pass percentage across all exams
+
+Display all calculated statistics and results to the user
+
+
+
+VARIABLES:
+grades_data: Numpy array containing grades for 10 students across exams
+
+exam_scores: Contains grades for a specific exam when analyzing its statistics
+
+flat_data: Contains all grades from the dataset for calculating overall statistics
+
+passed: The number of students who passed a particular exam
+
+failed: The number of students who failed a particular exam
+
+total_scores: The total number of grades across all exams
+
+total_passed: The total number of passing grades across all exams
+
+pass_percentage: A float representing the overall percentage of passing grades across all exams
+
+
+
+
+
+FUNCTIONS:
+
+calculate_exam_statistics(data): Calculate and display mean, median, standard deviation, minimum, and maximum for each exam
+
+calculate_overall_statistics(data): Calculate and display mean, median, standard deviation, minimum, and maximum for all grades for all exams combined
+
+pass_fail_counts(data, passing_grade=60): Print the number of students who passed and failed for each exam
+
+passing_grade: The threshold for passing (default is 60)
+
+calculate_overall_pass_percentage(data, passing_grade=60): Calculate and display the overall pass percentage across all exams
+
+passing_grade: The threshold for passing (60)
+
+main()
+
+
+
+https://github.com/KhaiBarth/COP2373
